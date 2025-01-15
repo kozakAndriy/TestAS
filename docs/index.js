@@ -1,6 +1,6 @@
 
-import { generateSquares, isValidPlace, solve } from "../lib/lat_sq.js"
-import { n } from "../lib/constants.js"
+import { generateSquares, isValidPlace, solve } from "./lib/lat_sq.js"
+import { n } from "./lib/constants.js"
 
 let table = document.getElementById("table");
 table.setAttribute("class", "mx-auto")
