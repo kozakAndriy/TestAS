@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sassy_gradient {
+    background: rgb(89, 121, 212);
+    background: linear-gradient(90deg, rgba(89, 121, 212, 1) 0%, rgba(18, 215, 255, 1) 100%);
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./Ubuntu-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+input {
+    border: 3px solid white;
+}
+
+[isCorrect="true"] {
+    border: 3px solid green;
+}
+
+[isCorrect="false"] {
+    border: 3px solid red;
+}
+
+td {
+    border: 1px solid slategray;
+    margin: 2px;
+    font-size: min(7vw, 40px);
+    background-color: white;
+    width: min(15vw, 100px);
+    height: min(15vw, 100px);
+    text-align: center;
+}
